@@ -1,0 +1,17 @@
+# Acesse a pasta do projeto
+cd "C:\Users\Saulo\Desktop\kmz-color-classifier"
+
+# Instale fs-extra
+npm install fs-extra
+
+# Instale adm-zip
+npm install adm-zip
+
+# Instale @xmldom/xmldom com resolução forçada de dependências
+npm install @xmldom/xmldom --legacy-peer-deps
+
+# (opcional) Se der erro com date-fns, instale uma versão compatível
+npm install date-fns@2.29.3
+
+# (recomendo rodar depois para garantir que tudo esteja certo)
+node kmz-extractor-with-colors.js

@@ -1,0 +1,71 @@
+================================================================================
+                    TUTORIAL COMPLETO - KMZ COLOR CLASSIFIER
+                     Extração e Comparação de Códigos KMZ
+================================================================================
+
+📋 ÍNDICE:
+   1. Preparação do Ambiente
+   2. Extração de Códigos do KMZ
+   3. Comparação de Códigos
+   4. Interpretação dos Resultados
+   5. Workflow Completo
+   6. Solução de Problemas
+   7. Dicas e Melhores Práticas
+
+================================================================================
+1. PREPARAÇÃO DO AMBIENTE
+================================================================================
+
+🔧 PASSO 1.1: INSTALAÇÃO INICIAL
+---------------------------------
+
+1. Baixe todos os arquivos do projeto para uma pasta (ex: C:\KMZ-Tools)
+
+2. Instale as dependências:
+   
+   Windows:
+   - Execute: install.bat
+   - Aguarde a instalação (pode levar alguns minutos)
+   
+   Linux/macOS:
+   - Execute: chmod +x install.sh
+   - Execute: ./install.sh
+
+3. Verifique se a instalação foi bem-sucedida:
+   - Deve aparecer "✅ Instalação concluída com sucesso!"
+
+📁 PASSO 1.2: ORGANIZAÇÃO DOS ARQUIVOS
+--------------------------------------
+
+Organize seus arquivos da seguinte forma:
+
+C:\KMZ-Tools\
+├── 📄 Scripts do sistema (não mover)
+├── 📁 arquivos-kmz\          ← Coloque seus arquivos KMZ aqui
+│   ├── primeiro-lote.kmz
+│   ├── segundo-lote.kmz
+│   └── terceiro-lote.kmz
+├── 📁 resultados\            ← Resultados serão salvos aqui
+└── 📁 comparacoes\           ← Comparações serão salvas aqui
+
+================================================================================
+2. EXTRAÇÃO DE CÓDIGOS DO KMZ
+================================================================================
+
+🚀 PASSO 2.1: PRIMEIRO PROCESSAMENTO
+------------------------------------
+
+1. Abra o Prompt de Comando (Windows) ou Terminal (Linux/macOS)
+
+2. Navegue até a pasta do projeto:
+   cd C:\KMZ-Tools
+
+3. Processe seu primeiro arquivo KMZ:
+   
+   Windows:
+   run.bat arquivos-kmz\primeiro-lote.kmz
+   
+   Linux/macOS:
+   ./run.sh arquivos-kmz/primeiro-lote.kmz
+
+4. Aguarde o processamento. Você verá mensagens como:
